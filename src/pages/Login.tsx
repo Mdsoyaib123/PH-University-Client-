@@ -5,8 +5,8 @@ import { useLoginMutation } from "../redux/features/auth/authApi";
 const Login = () => {
   const { register, handleSubmit } = useForm();
   const [login, { data, error }] = useLoginMutation();
-  // console.log(data);
-  // console.log(error);
+  console.log(data);
+  console.log(error);
   
   const onsubmit = (data) => {
     const userInfo = {
