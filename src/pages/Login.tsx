@@ -26,6 +26,7 @@ const Login = () => {
         <input type="text" id="password" {...register("password")} />
       </div>
       <Button htmlType="submit">Submit</Button>
+      
     </form>
   );
 };
